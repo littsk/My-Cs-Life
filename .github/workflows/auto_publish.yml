@@ -32,7 +32,7 @@ jobs:
       # build html
       - name: build html
         run:  
-          ls,
+          ls -la,
           mkdocs build,
         
       - name: deploy
