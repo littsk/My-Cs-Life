@@ -31,8 +31,9 @@ jobs:
 
       # build html
       - name: build html
-        run:  ls
-              mkdocs build
+        run:  
+          ls
+          mkdocs build
         
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
